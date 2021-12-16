@@ -1,0 +1,48 @@
+{
+  "name": "joel_garden_center_frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^3.4.1",
+    "cors": "^2.8.5",
+    "coverage": "^0.4.1",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.15.1",
+    "express-cache-controller": "^1.1.0",
+    "immutable": "4.0.0-rc.12",
+    "prop-types": "^15.7.2",
+    "react": "^16.10.1",
+    "react-dom": "^16.10.1",
+    "react-redux": "7.1.1",
+    "react-router-dom": "5.1.2",
+    "react-scripts": "3.2.0",
+    "react-test-renderer": "^16.10.2",
+    "redux": "4.0.4",
+    "redux-immutable": "4.0.0",
+    "redux-saga": "1.1.1",
+    "sinon": "^7.5.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "codefix": "eslint --fix src/**/*.js src/**/*.jsx",
+    "codestyle": "eslint src/**/*.js src/**/*.jsx"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
